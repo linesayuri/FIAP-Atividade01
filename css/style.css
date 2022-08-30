@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+/* Reset CSS
+seletor * == todos os elementos da página (TAGS)
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url(../images/7211706.jpg);
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+/* Menu */
+.menu {
+    background-color: #ddd1ff;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    font-weight: 800;
+    font-size: large;
+    margin: 0px;
+}
+
+.menu__1 {
+    padding: 20px 30px;
+}
+
+
+.menu__2 {
+    padding: 20px 30px;
+}
+
+
+.menu__3 {
+    padding: 20px 30px;
+}
+
+
+.menu__4 {
+    padding: 20px 30px;
+}
+
+/* Conteúdo Home */
+.container {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    margin: 20px 60px;
+    align-items: center;
+}
+
+
+.box__1{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.img_1 {
+    width: 300px;
+    height: 300px;
+}
+
+.titulo_box_1 {
+    text-align: center;
+}
+
+.texto_box_1 {
+    text-align: center;
+}
+
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #7717b8;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color: blueviolet;
+}
+
+p {
+    font-weight: 500;
+    font-size: large;
+}
+
+li {
+    font-weight: 500;
+    font-size: large;
+}
+
+
+.negrito {
+    font-weight: 600;
+}
+
+/* página contato */
+.contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px;
+}
+
+.icone__1 {
+    padding: 10px;
+}
+
+.icone__2 {
+    padding: 10px;
+}
+
+.icone__3 {
+    padding: 10px;
+}
+
+/* página experiência */
+.experiencia {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 100px 80px 100px;
+}
+
+/* página formação */
+.formacao {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 100px 80px 100px;
+}
+
+/* home hobbies e interesses */
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center ;
+    margin: 30px 60px;
+    align-items: baseline;
+}
+
+.hobbies {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 100px 80px 100px;
+    box-sizing: border-box;
+    background-color: #e1b4ff8a;
+    width: 300px;
+    height: 200px;
+    border-radius: 30px;
+    box-shadow: 3px 3px 5px 1px #6f337e4d;
+}
+
+.interesses {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 100px 80px 100px;
+    box-sizing: border-box;
+    background-color: #e1b4ff8a;
+    width: 430px;
+    height: 320px;
+    border-radius: 30px;
+    box-shadow: 3px 3px 5px 1px #6f337e4d;
+}
